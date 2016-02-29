@@ -1,0 +1,15 @@
+# Build directories
+*.egg-info/
+build/
+dist/
+
+# Compiled files
+*.pyc
+*.pyo
+*.c
+*.pyd
+
+# Testing
+.hypothesis/
+.cache/
+.eggs/
