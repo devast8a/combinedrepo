@@ -89,7 +89,7 @@ def cmd_svn_dcommit(args):
     """
     repo = os.getcwd()
     config = load_config(find_config(repo, CONFIG_FILENAME))
-    merge(config, repo)
+    push(config, repo)
     call(config, ["git", "svn", "dcommit"])
 
 def cmd_push(args):
